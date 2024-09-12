@@ -35,3 +35,21 @@ a {
     text-decoration: none;
     color: #3395ff;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -.7em;
+    font-size: 20px;
+}
+
+li::before {
+    content: "•";
+    color: #3395ff;
+    padding-right: .2em;
+}
